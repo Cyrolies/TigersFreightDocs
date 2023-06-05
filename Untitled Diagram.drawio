@@ -1,29 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T12:44:47.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="UmAPGPqXha4EC1MTOtrV" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-05T14:21:34.294Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="52UjiQ9w3g_V-O3k7_Bv" version="21.3.7" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1290" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rx4HbiY9vvftJRMskoTN-1" value="Existing SmartHub Core SIC" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="250" width="720" height="500" as="geometry" />
+        <mxCell id="rx4HbiY9vvftJRMskoTN-1" value="Existing Freight SIC" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="34" y="30" width="770" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="rx4HbiY9vvftJRMskoTN-5" value="Decision Criteria" style="swimlane;whiteSpace=wrap;html=1;startSize=10;" vertex="1" parent="1">
-          <mxGeometry x="40" y="10" width="720" height="230" as="geometry" />
+        <mxCell id="rx4HbiY9vvftJRMskoTN-22" value="Integration Type" style="swimlane;whiteSpace=wrap;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-1">
+          <mxGeometry y="20" width="126" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="rx4HbiY9vvftJRMskoTN-9" value="3rd Party API" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-5">
-          <mxGeometry x="30" y="30" width="120" height="20" as="geometry" />
+        <mxCell id="rx4HbiY9vvftJRMskoTN-23" value="Shipment/Booking&lt;br&gt;Freight Order&lt;br&gt;Billing Charges&lt;br&gt;Warehouse Order&lt;br&gt;Customs Declaration&lt;br&gt;Customs Invoicing&lt;br&gt;Schedules&lt;br&gt;Milestones" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-22">
+          <mxGeometry x="6" y="170" width="114" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="rx4HbiY9vvftJRMskoTN-8" value="File Transfer" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-5">
-          <mxGeometry x="30" y="70" width="120" height="20" as="geometry" />
+        <mxCell id="rx4HbiY9vvftJRMskoTN-21" value="Freight SIC" style="swimlane;whiteSpace=wrap;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-1">
+          <mxGeometry x="126" y="20" width="644" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="rx4HbiY9vvftJRMskoTN-10" value="Jas Freight API" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-5">
-          <mxGeometry x="30" y="110" width="120" height="20" as="geometry" />
+        <mxCell id="rx4HbiY9vvftJRMskoTN-25" value="Freight API" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-21">
+          <mxGeometry x="360" y="60" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rx4HbiY9vvftJRMskoTN-11" value="Email" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-5">
-          <mxGeometry x="30" y="150" width="120" height="20" as="geometry" />
+        <mxCell id="rx4HbiY9vvftJRMskoTN-26" value="Shipment/Booking Standard&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-21">
+          <mxGeometry x="400" y="215" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rx4HbiY9vvftJRMskoTN-12" value="Complex Logic" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-5">
-          <mxGeometry x="340" y="70" width="120" height="20" as="geometry" />
+        <mxCell id="rx4HbiY9vvftJRMskoTN-27" value="Communication Type" style="swimlane;whiteSpace=wrap;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-21">
+          <mxGeometry y="23" width="200" height="467" as="geometry" />
+        </mxCell>
+        <mxCell id="rx4HbiY9vvftJRMskoTN-35" value="File Transfer" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-27">
+          <mxGeometry x="40" y="218.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rx4HbiY9vvftJRMskoTN-36" value="Email" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-27">
+          <mxGeometry x="40" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rx4HbiY9vvftJRMskoTN-37" value="3rd Party API&lt;br&gt;SAP&amp;nbsp;&lt;br&gt;Shiptify&lt;br&gt;Transporean&lt;br&gt;Wakeo" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-27">
+          <mxGeometry x="40" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rx4HbiY9vvftJRMskoTN-38" value="Freight &lt;br&gt;SFTP Poller&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-21">
+          <mxGeometry x="230" y="150" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
