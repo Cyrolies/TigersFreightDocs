@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T12:40:26.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="48d3aozhbYSZe9ZzI7-p" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T06:35:26.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="y7hQEgpX6aEKLM1YUbz5" version="21.3.7" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1674" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
           <mxGeometry x="40" y="40" width="120" height="150" as="geometry" />
         </mxCell>
         <mxCell id="rx4HbiY9vvftJRMskoTN-38" value="Freight &lt;br&gt;SFTP Poller&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-21">
-          <mxGeometry x="220" y="78" width="120" height="40" as="geometry" />
+          <mxGeometry x="410" y="30" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rx4HbiY9vvftJRMskoTN-39" value="SmartHub Core" style="swimlane;whiteSpace=wrap;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-21">
           <mxGeometry x="210" y="130" width="420" height="360" as="geometry" />
@@ -71,12 +71,12 @@
           <mxGeometry x="220" y="64" width="180" height="27" as="geometry" />
         </mxCell>
         <mxCell id="rx4HbiY9vvftJRMskoTN-51" value="Freight &lt;br&gt;Validation API" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-21">
-          <mxGeometry x="400" y="30" width="120" height="40" as="geometry" />
+          <mxGeometry x="220" y="78" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rx4HbiY9vvftJRMskoTN-52" value="Freight &lt;br&gt;Logging SIC" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rx4HbiY9vvftJRMskoTN-21">
-          <mxGeometry x="400" y="78" width="120" height="40" as="geometry" />
+          <mxGeometry x="410" y="78" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rx4HbiY9vvftJRMskoTN-53" value="&lt;h1&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 14px;&quot;&gt;Decision Criteria - between Smarthub Core or Altova&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1)Using external 3rd party API&amp;nbsp; &amp;nbsp; -&amp;nbsp; SH Core&lt;/p&gt;&lt;p&gt;2)Complex logic required&amp;nbsp; - SH Core&lt;/p&gt;&lt;p&gt;3)Matches existing integration components - SH Core&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;align=left;" vertex="1" parent="1">
+        <mxCell id="rx4HbiY9vvftJRMskoTN-53" value="&lt;h1&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 14px;&quot;&gt;Decision Criteria - between Smarthub Core or Altova&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1)Using external 3rd party API&amp;nbsp; &amp;nbsp; -&amp;nbsp; SH Core&lt;/p&gt;&lt;p&gt;2)Complex logic required&amp;nbsp; - SH Core&lt;/p&gt;&lt;p&gt;3)Matches existing SH Core integration&amp;nbsp; - SH Core&lt;/p&gt;&lt;p&gt;4)Matches existing Altova integration - Altova&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;align=left;" vertex="1" parent="1">
           <mxGeometry x="34" y="40" width="766" height="190" as="geometry" />
         </mxCell>
       </root>
