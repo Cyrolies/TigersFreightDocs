@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T09:55:01.055Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.3.7" etag="qdaMibQukiOXBobq9vB4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T10:18:08.451Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ZBtJ0rXUJ4XmvtQ9Q0Pl" version="21.3.7" type="github">
   <diagram name="Page-1" id="RynNYXRZ_9jbp2y4fUvp">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="g6LgDzVbkQI4kbdyEEjz-3" value="SmartHub Core" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="550" width="440" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="g6LgDzVbkQI4kbdyEEjz-2" value="Custom&lt;br&gt;Transformation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="g6LgDzVbkQI4kbdyEEjz-3">
+          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6LgDzVbkQI4kbdyEEjz-8" value="JAS Object&lt;br&gt;to Cargowise&lt;br&gt;XUS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="g6LgDzVbkQI4kbdyEEjz-3">
+          <mxGeometry x="210" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6LgDzVbkQI4kbdyEEjz-15" value="Cargowise XUS&lt;br&gt;to JAS json object" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="g6LgDzVbkQI4kbdyEEjz-3">
+          <mxGeometry x="280" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6LgDzVbkQI4kbdyEEjz-4" value="Freight API&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="440" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="g6LgDzVbkQI4kbdyEEjz-10" value="JAS Object&lt;br&gt;to Cargowise&lt;br&gt;XUS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="g6LgDzVbkQI4kbdyEEjz-4">
+          <mxGeometry x="60" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6LgDzVbkQI4kbdyEEjz-13" value="Cargowise XUS&lt;br&gt;to JAS json object" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="g6LgDzVbkQI4kbdyEEjz-4">
+          <mxGeometry x="250" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6LgDzVbkQI4kbdyEEjz-6" value="Common Components" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="440" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="g6LgDzVbkQI4kbdyEEjz-9" value="JAS json object&lt;br&gt;to cargowise XUS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="g6LgDzVbkQI4kbdyEEjz-6">
+          <mxGeometry x="80" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6LgDzVbkQI4kbdyEEjz-14" value="Cargowise XUS&lt;br&gt;to JAS json object" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="g6LgDzVbkQI4kbdyEEjz-6">
+          <mxGeometry x="265" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6LgDzVbkQI4kbdyEEjz-7" value="CargoWise" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="120" width="200" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="g6LgDzVbkQI4kbdyEEjz-12" value="Client" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="120" width="110" height="720" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
