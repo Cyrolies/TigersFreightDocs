@@ -8,35 +8,36 @@
           <mxGeometry x="210" y="70" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="XJkcWPBj_YwJMuw8FeJk-2" value="FreightAPI-Integration-TS3" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="210" y="328" width="64" height="64" as="geometry" />
+          <mxGeometry x="210" y="363" width="64" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="XJkcWPBj_YwJMuw8FeJk-3" value="FreightAPI-Integration-Live" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="210" y="580" width="64" height="64" as="geometry" />
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-3" value="FreightAPI-Integration-Prod" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="210" y="650" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="XJkcWPBj_YwJMuw8FeJk-6" value="Cargowise TS3" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Container_App_Environments.svg;" vertex="1" parent="1">
-          <mxGeometry x="509.5" y="294" width="68" height="68" as="geometry" />
+          <mxGeometry x="509.5" y="338" width="68" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="XJkcWPBj_YwJMuw8FeJk-7" value="SQL DB Test" style="aspect=fixed;html=1;perimeter=none;align=center;shadow=0;dashed=0;image;fontSize=12;image=img/lib/mscae/SQL_Database_generic.svg;labelBackgroundColor=#ffffff;fillColor=#4D9900;spacingTop=6;" vertex="1" parent="1">
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-7" value="Freight-Portal-Integration-Live" style="aspect=fixed;html=1;perimeter=none;align=center;shadow=0;dashed=0;image;fontSize=12;image=img/lib/mscae/SQL_Database_generic.svg;labelBackgroundColor=#ffffff;fillColor=#4D9900;spacingTop=6;" vertex="1" parent="1">
           <mxGeometry x="380" y="520" width="37.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XJkcWPBj_YwJMuw8FeJk-4" value="SQL DB Test" style="aspect=fixed;html=1;perimeter=none;align=center;shadow=0;dashed=0;image;fontSize=12;image=img/lib/mscae/SQL_Database_generic.svg;labelBackgroundColor=#ffffff;fillColor=#4D9900;spacingTop=6;" vertex="1" parent="1">
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-4" value="Freight-Portal-Integration-Test" style="aspect=fixed;html=1;perimeter=none;align=center;shadow=0;dashed=0;image;fontSize=12;image=img/lib/mscae/SQL_Database_generic.svg;labelBackgroundColor=#ffffff;fillColor=#4D9900;spacingTop=6;" vertex="1" parent="1">
           <mxGeometry x="380" y="224" width="37.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XJkcWPBj_YwJMuw8FeJk-9" value="TS3 DB" style="aspect=fixed;html=1;perimeter=none;align=center;shadow=0;dashed=0;image;fontSize=12;image=img/lib/mscae/SQL_Database_generic.svg;labelBackgroundColor=#ffffff;fillColor=#4D9900;spacingTop=6;" vertex="1" parent="1">
-          <mxGeometry x="530" y="392" width="30.75" height="41" as="geometry" />
+          <mxGeometry x="530" y="427" width="30.75" height="41" as="geometry" />
         </mxCell>
         <mxCell id="XJkcWPBj_YwJMuw8FeJk-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="354" as="sourcePoint" />
-            <mxPoint x="490" y="354" as="targetPoint" />
+            <mxPoint x="280" y="389" as="sourcePoint" />
+            <mxPoint x="490" y="389" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XJkcWPBj_YwJMuw8FeJk-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="354" as="sourcePoint" />
-            <mxPoint x="400" y="304" as="targetPoint" />
+            <mxPoint x="280" y="389" as="sourcePoint" />
+            <mxPoint x="400" y="303" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="400" y="354" />
+              <mxPoint x="340" y="389" />
+              <mxPoint x="400" y="389" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -61,6 +62,84 @@
               <mxPoint x="400" y="102" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-21" value="FreightAPI-Validation-Test" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="222" y="224" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="250" as="sourcePoint" />
+            <mxPoint x="370" y="250" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="220" as="sourcePoint" />
+            <mxPoint x="240" y="160" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="290" as="sourcePoint" />
+            <mxPoint x="240" y="360" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-25" value="Cargowise HST" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Container_App_Environments.svg;" vertex="1" parent="1">
+          <mxGeometry x="518.63" y="646" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-26" value="HST DB" style="aspect=fixed;html=1;perimeter=none;align=center;shadow=0;dashed=0;image;fontSize=12;image=img/lib/mscae/SQL_Database_generic.svg;labelBackgroundColor=#ffffff;fillColor=#4D9900;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="537.26" y="746" width="30.75" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="684" as="sourcePoint" />
+            <mxPoint x="500" y="684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="684" as="sourcePoint" />
+            <mxPoint x="400" y="646" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="684" />
+              <mxPoint x="400" y="684" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-29" value="FreightAPI-Validation-Prod" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="222" y="530" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-30" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="268" y="550" as="sourcePoint" />
+            <mxPoint x="368" y="550" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-31" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="600" as="sourcePoint" />
+            <mxPoint x="241" y="645" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-32" value="AS2-DEV-FRT-DECODE" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Logic_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="880" y="180" width="67" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-33" value="AS2-DEV-FRT-ENCODE" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Logic_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="880" y="274" width="67" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XJkcWPBj_YwJMuw8FeJk-35" target="XJkcWPBj_YwJMuw8FeJk-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-35" value="AS2-LIV-FR-RECEIVER(Standard)" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Logic_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="880" y="450" width="64.42" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XJkcWPBj_YwJMuw8FeJk-36" value="AS2-LIV-FR-SENDER(Standard)" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Logic_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="880" y="540" width="67" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
